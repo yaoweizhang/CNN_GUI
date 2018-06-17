@@ -8,3 +8,7 @@
 ## **Suggestion**:
 
 > Use Anaconda or pip to achive packages.
+
+## **Usage**:
+
+>'python CNN_viewer.py'
