@@ -17,10 +17,23 @@ class window(QWidget):
 
         self.label1 = QLabel("No picture avilable")
         self.label1.setAlignment(Qt.AlignCenter)
+        
+        top_layout = QVBoxLayout()
+        top_layout.addWidget(file_btn)
+        top_layout.addWidget(self.label1)
+
+
+        #Whole structe
+        win_layout = QVBoxLayout()
+        win_layout.addLayout(top_layout)
+        win_layout.addStretch()
+
+        self.setLayout(win_layout)
+        self.setWindowTitle("CNN convolution simulator")
 
     def get_pic(self):
         fname = QFileDialog.getOpenFileName(self, "open file", ".", "Image files(*.jpg *.gif)")
-        self.label1.setPixMap(QPixmap(fname))
+        self.label1.setPixmap(QPixmap(fname))
         self.pic_path = str(fname)
 
 
