@@ -1,10 +1,10 @@
 # CNN_GUI
-##Use PyQt4 write a small GUI for CNN convolution.
+## Use PyQt4 write a small GUI for CNN convolution.
 
-##**Requirement**:
+## **Requirement**:
 
->PyQt4, numpy, cv2
+> PyQt4, numpy, cv2
 
-##**Suggestion**:
+## **Suggestion**:
 
->Use Anaconda or pip to achive packages.
+> Use Anaconda or pip to achive packages.
