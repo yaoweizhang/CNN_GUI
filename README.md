@@ -11,4 +11,4 @@
 
 ## **Usage**:
 
->'python CNN_viewer.py'
+>`python CNN_viewer.py`
